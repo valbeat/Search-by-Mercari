@@ -1,19 +1,8 @@
 {
     "manifest_version": 2,
     "name": "Search by Mercari",
-    "description": "アマゾンで開いている本をメルカリで検索する",
+    "description": "選択中のテキストをメルカリで検索",
     "version": "1.0",
-
-    "content_scripts": [
-        {
-            "matches": [
-                "https://*.amazon.co.jp/*"
-            ],
-            "js": [
-                "content.js"
-            ]
-        }
-    ],
 
     "background": {
         "scripts": [

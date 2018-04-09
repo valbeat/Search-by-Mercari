@@ -1,6 +1,5 @@
 # Search by Mercari
-
-アマゾンで開いている本をメルカリで検索するChrome Extension
+選択中のテキストをメルカリで検索するChrome Extension
 1. Open `chrome://extensions`
 2. Developer mode ON
 3. LOAD UNPACKED
