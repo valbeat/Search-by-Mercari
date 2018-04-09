@@ -12,7 +12,7 @@ chrome.runtime.onMessage.addListener(
     let keyword = message.keyword;
     chrome.contextMenus.onClicked.addListener(function () {
       chrome.tabs.create({
-        url: 'https://www.mercari.com/jp/search/?keyword=' + keyword
+        url: 'https://www.mercari.com/jp/search/?keyword=' + keyword + '&status_on_sale=1'
       });
     });
   }
